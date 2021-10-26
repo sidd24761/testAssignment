@@ -11,5 +11,10 @@ pipeline {
                 sh "python test1.py"
             }
         }
+        stage("Unit Test"){
+            steps{
+                sh "python test2.py"
+            }
+        }
     }
 }
