@@ -11,7 +11,7 @@ pipeline {
                 sh "python test1.py"
             }
         }
-        stage("Unit Test"){
+        stage("Unit Test 2"){
             steps{
                 sh "python test2.py"
             }
